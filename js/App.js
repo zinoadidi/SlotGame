@@ -50,6 +50,7 @@ function createSpin(reelArray, reelId){
 
     }, config.spinSpeed);
 
+    console.log("newly created:"+reelId, listOfSpinningReels[reelId]);
     numberOfSpinningReels ++;
 }
 
@@ -59,8 +60,11 @@ function createStopSpin(reelId){
         (config.stopIntervalBetweenReels * numberOfSpinningReels);
     setTimeout(
         function(){
-            clearInterval(listOfSpinningReels[reelId]);
-            delete listOfSpinningReels[reelId];
+            let intervalToClear = listOfSpinningReels[reelId];
+            console.log("stopping now:"+reelStoppageTime);
+            console.log("reel to stop:"+intervalToClear);
+            clearInterval(intervalToClear);
+           // delete listOfSpinningReels[reelId];
             numberOfSpinningReels --;
             if(isLastReel()){
                 spinCompleted();
@@ -68,6 +72,8 @@ function createStopSpin(reelId){
         },
         reelStoppageTime
     );
+
+    console.log("stoppage time:"+reelStoppageTime)
 }
 
 function isLastReel(){
@@ -75,6 +81,7 @@ function isLastReel(){
 }
 
 function resetGameArea(){
+    console.log(listOfSpinningReels);
     numberOfSpinningReels = 0;
     listOfSpinningReels = [];
 }
