@@ -1,6 +1,6 @@
 export let config = {
-    spinningTime: 2000,
-    stopIntervalBetweenReels: 4000,
-    spinSpeed: 150,
+    spinTime: 2000,
+    intervalBetweenReels: 500,
+    spinSpeed: 500,
     initialBalance: 5
 };

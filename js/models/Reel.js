@@ -23,7 +23,11 @@ export let reelImages = [
 ];
 
 export let reels = [
-    reelImages,
-    reelImages,
-    reelImages
+    [...reelImages],
+    [...reelImages],
+    [...reelImages]
 ];
+
+export let activeReelModel = {
+    reelStopTime:0
+}

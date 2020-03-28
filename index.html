@@ -30,11 +30,20 @@
     <div id="game-area" class="w3-container w3-col s12 m8 l8">
 
       <div id="reel-container" class="w3-container">
-
-        <div v-for="(reel, index) in reelArray" :id="'reel'+index" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
-          <img :src="reel[index].image" class="reel-symbol">
-          <img :src="reel[index].image" class="reel-symbol">
-          <img :src="reel[index].image" class="reel-symbol">
+        <div id="reel0" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
+          <img src="" class="reel-symbol" id="RSlot00">
+          <img src="" class="reel-symbol" id="RSlot01">
+          <img src="" class="reel-symbol" id="RSlot02">
+        </div>
+        <div id="reel1" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
+          <img src="" class="reel-symbol" id="RSlot10">
+          <img src="" class="reel-symbol" id="RSlot11">
+          <img src="" class="reel-symbol" id="RSlot12">
+        </div>
+        <div id="reel2" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
+          <img src="" class="reel-symbol" id="RSlot20">
+          <img src="" class="reel-symbol" id="RSlot21">
+          <img src="" class="reel-symbol" id="RSlot22">
         </div>
       </div>
 

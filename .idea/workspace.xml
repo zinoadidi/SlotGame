@@ -2,23 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951c28ea-4d78-4480-81c2-9b3f24b50f6d" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/w3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/2xBAR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/3xBAR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/BAR.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/Cherry.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/loading.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/loadingIcon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/controllers/SlotGameEngine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/controllers/Util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/models/Reel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/models/Storage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/models/WinningCombination.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vendor/require.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/css/w3.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/img/3.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/img/4.png" afterDir="false" />
@@ -41,9 +24,11 @@
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/models/Reel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/models/Reel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../slotGame/solution/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../slotGame/solution/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" afterDir="false" />
@@ -2193,116 +2178,90 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="144">
-                  <caret line="155" column="6" lean-forward="true" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
-                  <folding>
-                    <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/App.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="496">
-                  <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                    <element signature="e#95#141#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="210">
-                  <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/models/Reel.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="189">
-                  <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="63">
-                  <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-                  <folding>
-                    <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/js/config.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding>
+                <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#95#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/models/Reel.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>font-fa</find>
       <find>top-area</find>
+      <find>reelContainer</find>
+      <find>spin c</find>
+      <find>numOfSpinningReels</find>
+      <find>activeReels</find>
+      <find>spinReel</find>
+      <find>spinc</find>
+      <find>spincomp</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2321,9 +2280,9 @@
         <option value="$PROJECT_DIR$/js/models/StorageModel.js" />
         <option value="$PROJECT_DIR$/js/models/WinningCombination.js" />
         <option value="$PROJECT_DIR$/js/app.config.js" />
-        <option value="$PROJECT_DIR$/js/models/Reel.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/config.js" />
+        <option value="$PROJECT_DIR$/js/models/Reel.js" />
         <option value="$PROJECT_DIR$/js/App.js" />
       </list>
     </option>
@@ -2340,10 +2299,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
+    <option name="x" value="1440" />
     <option name="y" value="23" />
-    <option name="width" value="1067" />
-    <option name="height" value="814" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2388,6 +2347,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory&#10;repository" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
@@ -2399,6 +2360,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -2418,6 +2380,11 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="SlotGameWebApp" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:2016/SlotGameWebApp/" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -2434,24 +2401,24 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20264000" />
+    <option name="totallyTimeSpent" value="40635000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="814" extended-state="6" />
+    <frame x="1440" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23678647" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.17693523" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.24446785" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" visible="true" weight="0.32982087" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.39936775" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -2466,6 +2433,45 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>activeReels[reelId].reelStopTime</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>activeReels[reelId]</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>let me = activeRealModel; me</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>let me = activeRealModel;</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>activeRealModel;</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new activeRealModel;</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getReelStopTime(reelId);</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/browserconfig.xml" />
@@ -2528,13 +2534,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/Reel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -2542,17 +2541,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
+    <entry file="file://$PROJECT_DIR$/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="63">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="155" column="6" lean-forward="true" selection-start-line="155" selection-start-column="6" selection-end-line="155" selection-end-column="6" />
+        <state relative-caret-position="693">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
           <folding>
             <element signature="n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -2563,17 +2562,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/config.js">
+    <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="210">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/Reel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="61" column="10" lean-forward="true" selection-start-line="61" selection-start-column="10" selection-end-line="61" selection-end-column="10" />
+        <state relative-caret-position="304">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#95#141#0" expanded="true" />
