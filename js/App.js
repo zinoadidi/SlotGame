@@ -193,7 +193,8 @@ function showWiningAnimation(combinationId, winningLineOnReel){
         $("#WinningCombination"+combinationId).toggleClass('winning-combination');
     }, 4000);
 
-    // show winning line
+    // show winning line //
+
    /* let winLine =  $(".win-line");
     $(".line"+winningLineOnReel).position()
     winLine.position.top(winningLinePosition + 20)

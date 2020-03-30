@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951c28ea-4d78-4480-81c2-9b3f24b50f6d" name="Default Changelist" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/css/w3.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/img/3.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/img/4.png" afterDir="false" />
@@ -24,8 +25,7 @@
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" afterDir="false" />
@@ -2187,7 +2187,7 @@
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="350">
-                  <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+                  <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -2201,8 +2201,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="244">
-                  <caret line="197" column="39" selection-start-line="197" selection-start-column="39" selection-end-line="197" selection-end-column="39" />
+                <state relative-caret-position="174">
+                  <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#95#141#0" expanded="true" />
@@ -2215,7 +2215,7 @@
             <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="357">
-                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                  <caret line="17" selection-start-line="17" selection-end-line="17" />
                 </state>
               </provider>
             </entry>
@@ -2224,7 +2224,7 @@
             <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="126">
-                  <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -2246,11 +2246,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+                <state relative-caret-position="193">
+                  <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -2259,11 +2259,20 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/readme.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="420">
+                  <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/app.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="40">
-                  <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+                  <caret line="136" selection-start-line="136" selection-end-line="136" />
                 </state>
               </provider>
             </entry>
@@ -2290,7 +2299,7 @@
             <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1260">
-                  <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+                  <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -2329,7 +2338,6 @@
       <find>spin_btn</find>
       <find>balance</find>
       <find>fixMode</find>
-      <find>form</find>
       <find>position</find>
       <find>item</find>
       <find>reel-container</find>
@@ -2340,6 +2348,7 @@
       <find>resetGameArea</find>
       <find>game</find>
       <find>game-</find>
+      <find>form</find>
     </findStrings>
     <replaceStrings>
       <replace>symbol</replace>
@@ -2367,18 +2376,9 @@
         <option value="$PROJECT_DIR$/js/controllers/Util.js" />
         <option value="$PROJECT_DIR$/css/app.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/js/App.js" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/SlotGameWebApp.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
       </list>
     </option>
   </component>
@@ -2454,7 +2454,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -2467,8 +2467,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2500,12 +2500,12 @@
       <updated>1585302045583</updated>
       <workItem from="1585302046919" duration="17602000" />
       <workItem from="1585340975343" duration="2662000" />
-      <workItem from="1585493255782" duration="17084000" />
+      <workItem from="1585493255782" duration="18462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79223000" />
+    <option name="totallyTimeSpent" value="80601000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1255" height="823" extended-state="0" />
@@ -2722,28 +2722,28 @@
     <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="136" lean-forward="true" selection-start-line="136" selection-end-line="136" />
+          <caret line="136" selection-start-line="136" selection-end-line="136" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -2753,10 +2753,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="87" selection-start-line="20" selection-start-column="87" selection-end-line="20" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="197" column="39" selection-start-line="197" selection-start-column="39" selection-end-line="197" selection-end-column="39" />
+        <state relative-caret-position="174">
+          <caret line="196" column="4" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#95#141#0" expanded="true" />
