@@ -127,7 +127,7 @@ body,h3{
     }
 }
 
-.interactable{
+.intractable{
     position: fixed ;
 	top:0;
 	bottom: 0;
@@ -137,6 +137,7 @@ body,h3{
     background: white;
     opacity: 0.1;
     display: none;
+    background: blue;
 }
 
 #debug_area{
@@ -146,11 +147,34 @@ body,h3{
 	right: 0;
     z-index: 1000;
     background: white;
-    opacity: 0.9;
+    opacity: 1;
     display: none;
     overflow: scroll;
 }
 
 #gameSetToRandomMode,#gameSetToFixedMode{
     display:none
+}
+
+.winning-combination{
+    animation-name: flash;
+    animation-duration: 0.2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+}
+
+@keyframes flash {
+    from {color: red;}
+    to {color: black;}
+}
+
+.reel-top-cover{
+    background: white;
+
+}
+
+.reel-bottom-cover{
+    background: white;
 }
