@@ -19,6 +19,10 @@ Server will be live at:
 
 code is tested with latest version of chrome
 
+Working version will be available at 
+```http://zinoadidi.site/```
+for a limited time
+
 ## Note:
 - animation on the reel itself is the only item not submitted that isn't activated at submission time because it was commented out; i activated it after and committed the update.
 - Everything is designed to best understanding of the requirement pdf file i have included
