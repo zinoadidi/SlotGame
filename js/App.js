@@ -55,8 +55,8 @@ function handleSpinRequest() {
 
     // disable interaction
     util.toggleUserInteraction();
-    resetGameArea();
     util.scrollReelContainerToPosition(1);
+    resetGameArea();
 
     // deduct users balance
     updateBalance(1, "subtract");

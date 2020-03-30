@@ -9,12 +9,19 @@ export function enforceBalanceLimit(){
     }
 }
 
-
 export function scrollReelContainerToPosition(position) {
     let reelContainer = $("#reel-container");
     let possiblePositions = [0, 74, 250];
 
     reelContainer.animate({ scrollTop:  possiblePositions[position]});
+}
+
+export function toggleUserInteraction() {
+    $(".intractable").toggleClass("visible");
+}
+
+export function stringIsEqual(str1, str2){
+    return str1.toLowerCase() === str2.toLowerCase()
 }
 
 export function stopLoad (){
@@ -69,10 +76,3 @@ export function setupGameArea(){
     )
 }
 
-export function toggleUserInteraction() {
-    $(".intractable").toggleClass("visible");
-}
-
-export function stringIsEqual(str1, str2){
-    return str1.toLowerCase() === str2.toLowerCase()
-}
