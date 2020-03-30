@@ -17,5 +17,10 @@ code is tested with latest version of chrome
 - Everything is designed to best understanding of the requirement pdf file i have included
 
 # Known Issue
-- There can be some updates in updating the UI during spinning. 
-There are other options i have tried as regards spinning and other options i get to try
+- Sometimes there are delays in updating the UI during spinning. this however doesnt affect the logic and everything works fine behind the scene.
+There are other options i have tried as regards spinning the UI and other options i didnt get to try but it can be optimized to work more effectively.
+
+#observations
+- i wrote the scoring logic to work from top to bottom. if there are matching reels on the first line then it scores that line over the second line.
+the logic can be changed easily to accommodate scoring multiple lines with matching symbols. if this is what the actualy requirement is; 
+i assumed we are scoring from top to bottom; first mating symbols.

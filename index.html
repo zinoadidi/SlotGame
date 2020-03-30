@@ -28,11 +28,11 @@
     <div id="game-area" class="w3-container w3-col s12 m8 l8">
       <div id="reel-container" class="w3-container">
         <div v-for="(reel, index) in reelArray" :id="'reel'+index" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
-          <img :src="reel[0].image" class="reel-symbol w3-animate-top line1">
-          <img :src="reel[1].image" class="reel-symbol line2">
-          <img :src="reel[2].image" class="reel-symbol line3">
+          <img :src="reel[0].image" :id="'reel'+index+'Symbol0'" class="reel-symbol w3-animate-top">
+          <img :src="reel[1].image" :id="'reel'+index+'Symbol1'" class="reel-symbol">
+          <img :src="reel[2].image" :id="'reel'+index+'Symbol2'" class="reel-symbol">
         </div>
-        <div class="win-line"></div>
+        <div class="win-line blink"></div>
       </div>
       <div id="spin-btn" class="w3-container">
         <button id="spin_btn" class="w3-btn w3-padding w3-large w3-bar spin-btn w3-white w3-text-purple w3-bottombar w3-topbar w3-border-pink w3-hover-purple"><h3>SPIN</h3></button>
@@ -50,7 +50,7 @@
       <div class="w3-border">
         <h3 class="w3-leftbar w3-border-gray w3-white w3-text-purple w3-center">Pay Table</h3>
         <ul class="w3-ul w3-striped" id="payTableList">
-          <li v-for="(combination, index) in winningCombination" :id="'WinningCombination'+index">
+          <li v-for="(combination, index) in winningCombination" :id="'WinningCombination'+index" >
             "{{combination.nOfTimePresent}}" {{combination.symbol.length > 1 ? "combination of" : ""}}
             <b>{{ combination.symbol.toString()}}</b> symbols on {{combination.position}} line
             <b>{{combination.score}}</b>

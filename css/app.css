@@ -113,6 +113,9 @@ body,h3{
 }
 
 .winning-combination{
+
+}
+.blink{
     animation-name: flash;
     animation-duration: 0.2s;
     animation-timing-function: linear;
@@ -128,7 +131,6 @@ body,h3{
 
 .reel-top-cover{
     background: white;
-
 }
 
 .reel-bottom-cover{
@@ -137,18 +139,22 @@ body,h3{
 
 .win-line{
     height: 10px;
-    width: 100%;
     background: red;
     position: absolute;
     top: 120px;
     display:none;
 
-    animation-name: flash;
+    animation-name: flashBackground;
     animation-duration: 0.2s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     animation-play-state: running;
+}
+
+@keyframes flashBackground {
+    from {background: red;}
+    to {background: white;}
 }
 
 #game-area{

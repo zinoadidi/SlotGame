@@ -2,7 +2,7 @@
 /*  Derivco recruitment test solution 2020  */
 
 import * as util from './controllers/Util.js';
-import {reels } from "./models/Reel.js";
+import {reels} from "./models/Reel.js";
 import {config} from "./config.js";
 import {checkCombination, WinningCombinationList} from "./models/WinningCombination.js";
 
@@ -187,19 +187,21 @@ function updateBalance(value, updateType){
 
 function showWiningAnimation(combinationId, winningLineOnReel){
     /// add blinking text to pay table entry
-    $("#WinningCombination"+combinationId).toggleClass('winning-combination');
+    $("#WinningCombination"+combinationId).toggleClass('blink');
+    let winLine =  $(".win-line");
+
     //// remove blink after x seconds
     setTimeout(function () {
-        $("#WinningCombination"+combinationId).toggleClass('winning-combination');
-    }, 4000);
+        $("#WinningCombination"+combinationId).toggleClass('blink');
+        $(".win-line").hide();
+    }, 3000);
 
     // show winning line //
-
-   /* let winLine =  $(".win-line");
-    $(".line"+winningLineOnReel).position()
-    winLine.position.top(winningLinePosition + 20)
-    winLine.width($("#reel-container").width())
-    winLine.show();*/
+    winLine.css({
+        top: $("#reel0Symbol" + winningLineOnReel).offset().top + 60,
+        width: $("#reel-container").width()
+    });
+    winLine.show();
 
 }
 

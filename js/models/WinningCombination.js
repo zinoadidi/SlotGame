@@ -63,13 +63,24 @@ export function checkCombination(firstSymbol, secondSymbol, thirdSymbol){
             isWinningCombination = matchingElements >= 3;
         }else{
             let matchingElements = 0;
-            combination.symbol.forEach(function (symbolName) {
-                if (stringIsEqual(symbolName, firstSymbol) ||
-                    stringIsEqual(symbolName, secondSymbol) ||
-                    stringIsEqual(symbolName, thirdSymbol)
-                ) matchingElements++;
-            });
-            isWinningCombination = matchingElements >= 3;
+
+            if(combination.symbol.length >= 3){
+                combination.symbol.forEach(function (symbolName) {
+                    if (stringIsEqual(symbolName, firstSymbol) ||
+                        stringIsEqual(symbolName, secondSymbol)||
+                        stringIsEqual(symbolName, thirdSymbol)
+                    ) matchingElements++
+                });
+            }
+
+            if(combination.symbol.length === 2){
+                [firstSymbol,secondSymbol,thirdSymbol].forEach(function (symbol) {
+                    if (stringIsEqual(symbol, combination.symbol[0]) ||
+                        stringIsEqual(symbol, combination.symbol[1])
+                    ) matchingElements++
+                });
+            }
+            isWinningCombination = matchingElements >=  3;
         }
 
         if(isWinningCombination){
