@@ -1,5 +1,11 @@
 import {config} from "../config.js";
 
+export function scrollReelContainerToCenter() {
+    let reelContainer = $("#reel-container");
+    let scrollTo =  74;
+    reelContainer.animate({ scrollTop:  scrollTo});
+}
+
 export function stopLoad (){
     var loadingScr = document.querySelector(".loadingbar");
     loadingScr.classList.add('hidden');

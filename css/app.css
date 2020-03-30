@@ -10,9 +10,7 @@ body,h3{
     display: block!important
 }
 
-#reel-container{
-    overflow: hidden;
-}
+
 .hidden{
     display:none!important;
 }
@@ -75,56 +73,18 @@ body,h3{
     width: 70%;
 }
 
-@media (max-width: 400px){
-    #reel-container{
-        height: 40vh;
-    }
-    .reel-symbol{
-        width: 100%;
-    }
-}
-@media (max-width: 601px){
-    #reel-container{
-        height: 40vh;
-    }
-    .reel-symbol{
-        width: 100%;
-    }
-}
-@media (min-width: 602px){
-    #reel-container{
-        height: 40vh;
-    }
-    .reel-symbol{
-        width: 100%;
-    }
+
+#reel-container{
+    height: 290px;
+    overflow: scroll;
 }
 
-@media (min-width: 802px){
-    #reel-container{
-        height: 400px;
-    }
-    .reel-symbol{
-        width: 80%;
-    }
+#reel-container::-webkit-scrollbar {
+    display: none;
 }
 
-@media (min-width: 1000px){
-    #reel-container{
-        height: 420px;
-    }
-    .reel-symbol{
-        width: 80%;
-    }
-}
-
-@media (min-width: 1200px){
-    #reel-container{
-        height: 500px;
-    }
-    .reel-symbol{
-        width: 70%;
-    }
+.reel-symbol{
+    width: 80%;
 }
 
 .intractable{
@@ -178,3 +138,4 @@ body,h3{
 .reel-bottom-cover{
     background: white;
 }
+

@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="951c28ea-4d78-4480-81c2-9b3f24b50f6d" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/w3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/2xBAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/3xBAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/BAR.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/Cherry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/loadingIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/models/Reel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/models/Storage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/models/WinningCombination.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/vendor/require.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/css/w3.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/img/3.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../kri-assist-project/img/4.png" afterDir="false" />
@@ -29,11 +43,7 @@
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/controllers/SlotGameEngine.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/js/controllers/Util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controllers/Util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/models/Reel.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/models/Reel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/models/WinningCombination.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/models/WinningCombination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/node_modules/.bin/detect-libc" beforeDir="false" />
@@ -2182,7 +2192,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.85727876">
+    <splitter split-orientation="horizontal" split-proportion="0.509039">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -2190,24 +2200,26 @@
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+                <state relative-caret-position="1522">
+                  <caret line="163" column="58" selection-start-line="163" selection-start-column="58" selection-end-line="163" selection-end-column="58" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="147">
-                  <caret line="7" selection-start-line="7" selection-end-line="7" />
+                <state relative-caret-position="194">
+                  <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#95#141#0" expanded="true" />
@@ -2228,8 +2240,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="130">
-                  <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+                <state relative-caret-position="103">
+                  <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -2264,11 +2276,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3129">
-                  <caret line="149" column="14" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
+                <state relative-caret-position="251">
+                  <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
                 </state>
               </provider>
             </entry>
@@ -2282,7 +2294,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/models/WinningCombination.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="380">
@@ -2295,7 +2307,7 @@
             <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1260">
-                  <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+                  <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -2315,14 +2327,10 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>activeReels</find>
-      <find>spinReel</find>
-      <find>spinc</find>
       <find>spincomp</find>
       <find>consol</find>
       <find>config.spinTime +</find>
       <find>getReelStopTime</find>
-      <find>reel</find>
       <find>let reel</find>
       <find>reelsContainer[reelId]</find>
       <find>reelsContainer.</find>
@@ -2343,8 +2351,12 @@
       <find>balance</find>
       <find>fixMode</find>
       <find>form</find>
-      <find>item</find>
       <find>position</find>
+      <find>item</find>
+      <find>reel-container</find>
+      <find>reel</find>
+      <find>screen</find>
+      <find>to</find>
     </findStrings>
     <replaceStrings>
       <replace>symbol</replace>
@@ -2366,13 +2378,13 @@
         <option value="$PROJECT_DIR$/js/app.config.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.js" />
         <option value="$PROJECT_DIR$/js/controllers/SlotGameEngine.js" />
-        <option value="$PROJECT_DIR$/css/app.css" />
         <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/js/models/Reel.js" />
-        <option value="$PROJECT_DIR$/js/controllers/Util.js" />
-        <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/js/models/WinningCombination.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/controllers/Util.js" />
+        <option value="$PROJECT_DIR$/js/App.js" />
+        <option value="$PROJECT_DIR$/css/app.css" />
       </list>
     </option>
   </component>
@@ -2505,12 +2517,12 @@
       <updated>1585302045583</updated>
       <workItem from="1585302046919" duration="17602000" />
       <workItem from="1585340975343" duration="2662000" />
-      <workItem from="1585493255782" duration="13119000" />
+      <workItem from="1585493255782" duration="15444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75258000" />
+    <option name="totallyTimeSpent" value="77583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1255" height="823" extended-state="0" />
@@ -2520,7 +2532,7 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14829822" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.24446785" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="1" visible="true" weight="0.24335665" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" />
@@ -2568,7 +2580,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/js/App.js</url>
-          <line>153</line>
+          <line>152</line>
           <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
@@ -2679,13 +2691,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2898">
@@ -2710,13 +2715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3129">
-          <caret line="149" column="14" selection-start-line="149" selection-start-column="14" selection-end-line="149" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/models/Reel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -2731,24 +2729,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#95#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/models/WinningCombination.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -2758,12 +2738,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="44" selection-end-line="54" selection-end-column="44" />
+        <state relative-caret-position="1486">
+          <caret line="117" column="39" selection-start-line="117" selection-start-column="39" selection-end-line="117" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="66" column="1" lean-forward="true" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/Storage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="194" column="16" selection-start-line="194" selection-start-column="16" selection-end-line="194" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#95#141#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="81" column="15" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="15" />
         </state>
       </provider>
     </entry>

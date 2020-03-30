@@ -27,14 +27,15 @@
     </div>
     <div id="game-area" class="w3-container w3-col s12 m8 l8">
       <div id="reel-container" class="w3-container">
-        <div class="reel-top-cover"></div>
         <div v-for="(reel, index) in reelArray" :id="'reel'+index" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
           <img :src="reel[0].image" class="reel-symbol w3-animate-top">
           <img :src="reel[1].image" class="reel-symbol">
           <img :src="reel[2].image" class="reel-symbol">
         </div>
+        <div class="win-line1 win-line"></div>
+        <div class="win-line2"></div>
+        <div class="win-line3"></div>
       </div>
-      <div class="reel-bottom-cover"></div>
       <div id="spin-btn" class="w3-container">
         <button id="spin_btn" class="w3-btn w3-padding w3-large w3-bar spin-btn w3-white w3-text-purple w3-bottombar w3-topbar w3-border-pink w3-hover-purple"><h3>SPIN</h3></button>
       </div>
@@ -162,7 +163,6 @@
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="js/vendor/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
-
   <script type="module" src="js/App.js"></script>
 </footer>
 </html>

@@ -46,6 +46,8 @@ let fixModeData = new Vue({
 function handleSpinRequest() {
     // disable interaction
     util.toggleUserInteraction();
+    util.scrollReelContainerToCenter();
+
     // deduct users balance
     updateBalance(1, "subtract");
 
@@ -100,11 +102,11 @@ function spinReel(reelId){
             check is made here to reduce computing time to 1 call per reel.
         */
         if(fixModeConditionsAreMet(reelArray, reelId)){
+            // final spin: reduce counter and scroll reel to center
             numOfSpinningReels --;
         }else{
             createSpinReel(reelArray, reelId);
         }
-
         // check if the last reel has stopped spinning and end game
         if(isLastReel()){
             spinCompletedForAllReels();
@@ -138,7 +140,6 @@ function isLastReel(){
 }
 
 function spinCompletedForAllReels() {
-    console.table(reelsContainer.reelArray);
     calculateScore();
     resetGameArea();
     util.toggleUserInteraction();
@@ -171,6 +172,8 @@ function resetGameArea(){
     numOfSpinningReels = 0;
     activeReels = [];
     spinStartTime = new Date();
+    // ensure that reel remains in center
+    util.scrollReelContainerToCenter();
 }
 
 function updateBalance(value, updateType){
@@ -195,7 +198,6 @@ $( window ).on( "load", function () {
     /* setup game area */
     spin_btn.addEventListener("click",function(){handleSpinRequest()});
     util.setupGameArea();
-
     /* hide loading screen */
     setTimeout(util.stopLoad, 2000);
 } );
