@@ -6,9 +6,16 @@ App.js serves as entry point.
 js folder contains the source code for app.js and other js files
 vue js is used for data binding and jquery for dom manipulation
 
-It is best to run code on any server available 
-or using ide like webstorm to lunch the html file in browser
-code can also be run by clicking the index.html file
+## How to run
+It is best to run code on a server (Any node, apache, ngnix etc server will work just fine)  
+- IDE like webstorm can be used to lunch the html file in browser
+- Using Docker / Docker compose is possible with included docker compose file.
+Navigate to project folder in terminal / cmd and run
+````
+docker-compose up -d
+````
+Server will be live at:
+``http://localhost:8080/``
 
 code is tested with latest version of chrome
 
@@ -22,5 +29,5 @@ There are other options i have tried as regards spinning the UI and other option
 
 #observations
 - i wrote the scoring logic to work from top to bottom. if there are matching reels on the first line then it scores that line over the second line.
-the logic can be changed easily to accommodate scoring multiple lines with matching symbols. if this is what the actualy requirement is; 
-i assumed we are scoring from top to bottom; first mating symbols.
+the logic can be changed easily to accommodate scoring multiple lines with matching symbols or prioritizing the scores.
+I assumed we are scoring from top to bottom; first matching symbols.
