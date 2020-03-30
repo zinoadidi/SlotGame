@@ -46,6 +46,7 @@ let fixModeData = new Vue({
 function handleSpinRequest() {
     // disable interaction
     util.toggleUserInteraction();
+    resetGameArea();
     util.scrollReelContainerToCenter();
 
     // deduct users balance
@@ -141,7 +142,6 @@ function isLastReel(){
 
 function spinCompletedForAllReels() {
     calculateScore();
-    resetGameArea();
     util.toggleUserInteraction();
 }
 
@@ -161,7 +161,7 @@ function calculateScore() {
 
         if(combinationCheckResult.isWinningCombination){
             updateBalance(combinationCheckResult.score,"add");
-            showWiningAnimation(combinationCheckResult.index);
+            showWiningAnimation(combinationCheckResult.index, index);
             break;
         }
     }
@@ -174,6 +174,7 @@ function resetGameArea(){
     spinStartTime = new Date();
     // ensure that reel remains in center
     util.scrollReelContainerToCenter();
+    $(".win-line").hide();
 }
 
 function updateBalance(value, updateType){
@@ -184,13 +185,21 @@ function updateBalance(value, updateType){
     }
 }
 
-function showWiningAnimation(combinationId){
+function showWiningAnimation(combinationId, winningLineOnReel){
     /// add blinking text to pay table entry
     $("#WinningCombination"+combinationId).toggleClass('winning-combination');
     //// remove blink after x seconds
     setTimeout(function () {
         $("#WinningCombination"+combinationId).toggleClass('winning-combination');
-    }, 10000);
+    }, 4000);
+
+    // show winning line
+   /* let winLine =  $(".win-line");
+    $(".line"+winningLineOnReel).position()
+    winLine.position.top(winningLinePosition + 20)
+    winLine.width($("#reel-container").width())
+    winLine.show();*/
+
 }
 
 // wait for all images and dom to be ready
