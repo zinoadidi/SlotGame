@@ -1,9 +1,10 @@
 import {config} from "../config.js";
 
-export function scrollReelContainerToCenter() {
+export function scrollReelContainerToPosition(position) {
     let reelContainer = $("#reel-container");
-    let scrollTo =  74;
-    reelContainer.animate({ scrollTop:  scrollTo});
+    let possiblePositions = [0, 74, 250];
+
+    reelContainer.animate({ scrollTop:  possiblePositions[position]});
 }
 
 export function stopLoad (){

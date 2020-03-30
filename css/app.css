@@ -93,7 +93,6 @@ body,h3{
     background: white;
     opacity: 0.1;
     display: none;
-    background: blue;
 }
 
 #debug_area{
@@ -159,4 +158,16 @@ body,h3{
 
 #game-area{
     margin-top: 50px;
+    max-width: 581px !important;
+    min-width: 505px;
+}
+
+#spin-btn{
+    margin-top:30px
+}
+
+.reel-indicator{
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    line-height: 0.5px;
 }

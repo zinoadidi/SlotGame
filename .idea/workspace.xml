@@ -25,10 +25,8 @@
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Mainor/MobileGameProject/RPGClassExample/.idea/.idea.RPGClassExample/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/models/WinningCombination.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/models/WinningCombination.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/controllers/Util.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/controllers/Util.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../trainingVideos/Kri-Assist/node_modules/.bin/detect-libc" beforeDir="false" />
@@ -2203,8 +2201,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="78">
-                  <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+                <state relative-caret-position="223">
+                  <caret line="198" column="103" selection-start-line="198" selection-start-column="103" selection-end-line="198" selection-end-column="103" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                     <element signature="e#95#141#0" expanded="true" />
@@ -2225,8 +2223,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/models/WinningCombination.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+                <state relative-caret-position="103">
+                  <caret line="68" column="25" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -2234,8 +2232,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+                <state relative-caret-position="105">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
                 </state>
               </provider>
             </entry>
@@ -2260,8 +2258,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="193">
-                  <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+                <state relative-caret-position="218">
+                  <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -2270,20 +2268,20 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/readme.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="296">
+                <state relative-caret-position="342">
                   <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/app.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="118">
-                  <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+                <state relative-caret-position="146">
+                  <caret line="158" column="11" lean-forward="true" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -2301,7 +2299,7 @@
             <entry file="file://$PROJECT_DIR$/js/models/WinningCombination.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="380">
-                  <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+                  <caret line="58" column="52" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -2310,7 +2308,7 @@
             <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1260">
-                  <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
+                  <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -2330,12 +2328,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>reelsContainer[reelId]</find>
-      <find>reelsContainer.</find>
-      <find>[</find>
-      <find>fo</find>
-      <find>int</find>
-      <find>getree</find>
       <find>balan</find>
       <find>input</find>
       <find>forEa</find>
@@ -2353,13 +2345,19 @@
       <find>reel-container</find>
       <find>reel</find>
       <find>screen</find>
-      <find>to</find>
       <find>winn</find>
       <find>game</find>
       <find>win-</find>
-      <find>form</find>
-      <find>resetGameArea</find>
       <find>game-</find>
+      <find>resetGameArea</find>
+      <find>spin</find>
+      <find>consol</find>
+      <find>scrol</find>
+      <find>form</find>
+      <find>scrollReelContainerToPosition</find>
+      <find>console</find>
+      <find>line</find>
+      <find>to</find>
     </findStrings>
     <replaceStrings>
       <replace>symbol</replace>
@@ -2383,13 +2381,13 @@
         <option value="$PROJECT_DIR$/js/controllers/SlotGameEngine.js" />
         <option value="$PROJECT_DIR$/js/config.js" />
         <option value="$PROJECT_DIR$/js/models/Reel.js" />
-        <option value="$PROJECT_DIR$/js/controllers/Util.js" />
         <option value="$PROJECT_DIR$/readme.txt" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/app.css" />
-        <option value="$PROJECT_DIR$/js/models/WinningCombination.js" />
-        <option value="$PROJECT_DIR$/js/App.js" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/models/WinningCombination.js" />
+        <option value="$PROJECT_DIR$/js/controllers/Util.js" />
+        <option value="$PROJECT_DIR$/js/App.js" />
+        <option value="$PROJECT_DIR$/css/app.css" />
       </list>
     </option>
   </component>
@@ -2511,29 +2509,29 @@
       <updated>1585302045583</updated>
       <workItem from="1585302046919" duration="17602000" />
       <workItem from="1585340975343" duration="2662000" />
-      <workItem from="1585493255782" duration="22256000" />
+      <workItem from="1585493255782" duration="26835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84395000" />
+    <option name="totallyTimeSpent" value="88974000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1255" height="823" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.14829822" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.14829822" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.24335665" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.24335665" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" weight="0.32982087" />
       <window_info anchor="bottom" id="Run" order="7" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.3986014" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3986014" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -2722,24 +2720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="66" column="1" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -2747,17 +2727,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/app.css">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="342">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/models/WinningCombination.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+        <state relative-caret-position="218">
+          <caret line="33" column="14" lean-forward="true" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2768,10 +2752,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/models/WinningCombination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="58" column="52" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/Util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="67" column="1" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="190" column="34" selection-start-line="190" selection-start-column="34" selection-end-line="190" selection-end-column="34" />
+        <state relative-caret-position="223">
+          <caret line="198" column="103" selection-start-line="198" selection-start-column="103" selection-end-line="198" selection-end-column="103" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#95#141#0" expanded="true" />
@@ -2779,10 +2777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/css/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        <state relative-caret-position="146">
+          <caret line="158" column="11" lean-forward="true" selection-start-line="158" selection-start-column="11" selection-end-line="158" selection-end-column="11" />
         </state>
       </provider>
     </entry>

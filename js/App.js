@@ -38,7 +38,7 @@ let fixModeData = new Vue({
         configuration: [
             {symbol: "CHERRY", position: "1"},
             {symbol: "CHERRY", position: "1"},
-            {symbol: "CHERRY", position: "1"}
+            {symbol: "CHERRY", position: "2"}
         ]
     }
 });
@@ -47,7 +47,7 @@ function handleSpinRequest() {
     // disable interaction
     util.toggleUserInteraction();
     resetGameArea();
-    util.scrollReelContainerToCenter();
+    util.scrollReelContainerToPosition(1);
 
     // deduct users balance
     updateBalance(1, "subtract");
@@ -156,7 +156,6 @@ function calculateScore() {
         let secondItem = reel2[index].name;
         let thirdItem = reel3[index].name;
 
-        console.log("Combination"+index,firstItem,secondItem,thirdItem)
         combinationCheckResult = checkCombination(firstItem, secondItem, thirdItem);
 
         if(combinationCheckResult.isWinningCombination){
@@ -173,7 +172,7 @@ function resetGameArea(){
     activeReels = [];
     spinStartTime = new Date();
     // ensure that reel remains in center
-    util.scrollReelContainerToCenter();
+    util.scrollReelContainerToPosition(1);
     $(".win-line").hide();
 }
 
@@ -186,22 +185,27 @@ function updateBalance(value, updateType){
 }
 
 function showWiningAnimation(combinationId, winningLineOnReel){
+    let possiblePositions = [60, 124, 210];
     /// add blinking text to pay table entry
     $("#WinningCombination"+combinationId).toggleClass('blink');
     let winLine =  $(".win-line");
 
     //// remove blink after x seconds
     setTimeout(function () {
-        $("#WinningCombination"+combinationId).toggleClass('blink');
+        $("#WinningCombination"+combinationId).removeClass('blink');
         $(".win-line").hide();
     }, 3000);
 
+    let positionToShowLine = possiblePositions[winningLineOnReel] + $("#reel-container").position().top;
     // show winning line //
     winLine.css({
-        top: $("#reel0Symbol" + winningLineOnReel).offset().top + 60,
+        top: positionToShowLine,
         width: $("#reel-container").width()
     });
     winLine.show();
+
+    // scroll reel to winning position
+    util.scrollReelContainerToPosition(winningLineOnReel);
 
 }
 
