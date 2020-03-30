@@ -27,6 +27,9 @@ let payTableData = new Vue({
     data: {
         balance: config.initialBalance,
         winningCombination: [...WinningCombinationList]
+    },
+    methods: {
+        enforceBalanceLimit: util.enforceBalanceLimit
     }
 });
 
@@ -44,6 +47,12 @@ let fixModeData = new Vue({
 });
 
 function handleSpinRequest() {
+
+    if(payTableData.balance <= 0){
+        alert("your balance is too low");
+        return false;
+    }
+
     // disable interaction
     util.toggleUserInteraction();
     resetGameArea();
@@ -85,7 +94,12 @@ function generateReelStopTime(reelId) {
 }
 
 function spinReel(reelId){
-    // rearrange content of array
+    /* rearrange content of array
+    * since the UI is binded to array data, once array is updated,
+    * it triggers re-render on the UI meaning there is no separate render function for UI
+    * TODO: find a more efficient way to render reels; Possible solution direct sorting of DOM
+    *
+     */
     let reelArray = reelsContainer.reelArray[reelId];
     let lastItemInReel = reelArray.pop();
     reelArray.unshift(lastItemInReel);

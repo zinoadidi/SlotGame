@@ -1,5 +1,15 @@
 import {config} from "../config.js";
 
+export function enforceBalanceLimit(){
+    if(parseInt(this.balance) > 5000 ){
+        this.balance = 5000
+    }
+    if(parseInt(this.balance) <= 0 ){
+        this.balance = 1
+    }
+}
+
+
 export function scrollReelContainerToPosition(position) {
     let reelContainer = $("#reel-container");
     let possiblePositions = [0, 74, 250];
@@ -8,7 +18,7 @@ export function scrollReelContainerToPosition(position) {
 }
 
 export function stopLoad (){
-    var loadingScr = document.querySelector(".loadingbar");
+    let loadingScr = document.querySelector(".loadingbar");
     loadingScr.classList.add('hidden');
     //show display area for first time
     loadingScr = document.querySelector("#display");

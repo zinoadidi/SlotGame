@@ -171,3 +171,18 @@ body,h3{
     border-left: 2px solid red;
     line-height: 0.5px;
 }
+
+.win-line-indicator{
+    height: 10px;
+    margin-top: 70px;
+    border-left: 20px solid red;
+    border-right: 20px solid red;
+    width: 200px;
+    margin-left: 158px;
+    border-radius: 200px;
+}
+
+.win-line-indicator-container{
+    position: absolute;
+    margin-top: -25px;
+}

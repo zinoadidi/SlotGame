@@ -33,6 +33,11 @@
           <img :src="reel[2].image" :id="'reel'+index+'Symbol2'" class="reel-symbol">
         </div>
         <div class="win-line blink"></div>
+        <div class="win-line-indicator-container">
+          <div class="win-line-indicator"></div>
+          <div class="win-line-indicator"></div>
+          <div class="win-line-indicator"></div>
+        </div>
       </div>
       <div id="spin-btn" class="w3-container">
         <button id="spin_btn" class="w3-btn w3-padding w3-large w3-bar spin-btn w3-white w3-text-purple w3-bottombar w3-topbar w3-border-pink w3-hover-purple"><h3>SPIN</h3></button>
@@ -43,7 +48,7 @@
       <div class="w3-border">
         <div style="text-align: center;">
           <div class="w3-text-purple"><h3>BALANCE</h3></div>
-          <input type="number" id="balanceInput" min="1" max="5000" v-model="balance" class="w3-input w3-border-pink w3-center"/>
+          <input type="number" id="balanceInput" min="1" max="5000" v-model="balance" @change="enforceBalanceLimit" class="w3-input w3-border-pink w3-center"/>
         </div>
       </div>
       <!-- generate paytable using vue.js binding-->
