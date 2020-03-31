@@ -29,9 +29,9 @@
       <div id="reel-container" class="w3-container">
         <!--generate reel UI using vue js binding-->
         <div v-for="(reel, index) in reelArray" :id="'reel'+index" class="reel w3-col s4 m4 l4 w3-border-left w3-border-right">
-          <img :src="reel[0].image" :id="'reel'+index+'Symbol0'" class="reel-symbol w3-animate-top">
-          <img :src="reel[1].image" :id="'reel'+index+'Symbol1'" class="reel-symbol">
-          <img :src="reel[2].image" :id="'reel'+index+'Symbol2'" class="reel-symbol">
+          <img :src="reel[0].imageBase64" :id="'reel'+index+'Symbol0'" class="reel-symbol w3-animate-top">
+          <img :src="reel[1].imageBase64" :id="'reel'+index+'Symbol1'" class="reel-symbol">
+          <img :src="reel[2].imageBase64" :id="'reel'+index+'Symbol2'" class="reel-symbol">
         </div>
         <div class="win-line blink"></div>
         <div class="win-line-indicator-container">
