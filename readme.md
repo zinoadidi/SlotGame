@@ -28,8 +28,8 @@ for a limited time
 - Everything is designed to best understanding of the requirement pdf file i have included
 
 # Known Issue
-- Sometimes there are delays in updating the UI during spinning. this however doesnt affect the logic and everything works fine behind the scene.
-There are other options i have tried as regards spinning the UI and other options i didnt get to try but it can be optimized to work more effectively.
+- Solved:<s>Sometimes there are delays in updating the UI during spinning. this however doesnt affect the logic and everything works fine behind the scene.
+There are other options i have tried as regards spinning the UI and other options i didnt get to try but it can be optimized to work more effectively.</s>
 
 #observations
 - i wrote the scoring logic to work from top to bottom. if there are matching reels on the first line then it scores that line over the second line.
